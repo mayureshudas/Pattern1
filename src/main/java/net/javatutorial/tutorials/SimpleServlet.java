@@ -13,7 +13,7 @@ public class SimpleServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest reqest, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Hello World!");
+		response.getWriter().println("Hello World! Welcome to pattern demo");
 	}
 	
 	@Override
